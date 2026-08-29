@@ -8,7 +8,7 @@ Project skills, deep-reference skills, and slash commands for [OpenCode](https:/
 - `senior/skills/` — 18 deep-reference skills
 - `commands/` — 8 OpenCode slash commands (`/review`, `/audit`, `/docs`, ...)
 
-Full registry and installer: [xscriptor-ai/agents-hub](https://github.com/xscriptor-ai/agents-hub)
+Full registry and installer: [xscriptor-ai/agents](https://github.com/xscriptor-ai/agents)
 
 ## License
 

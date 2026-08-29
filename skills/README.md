@@ -46,7 +46,7 @@ npx @xscriptor/ai-agents
 npx @xscriptor/ai-agents --skills
 
 # Clone and install all
-git clone https://github.com/xscriptor/ai.git
+git clone https://github.com/xscriptor-ai/skills.git
 cd ai
 ./scripts/install-agents.sh</code></pre>
 
@@ -55,7 +55,7 @@ cd ai
 <h3>Manual</h3>
 
 <pre><code># Clone skills directory only
-git clone --depth 1 --filter=blob:none --sparse https://github.com/xscriptor/ai.git
+git clone --depth 1 --filter=blob:none --sparse https://github.com/xscriptor-ai/skills.git
 cd ai/skills
 
 # Project skills only
@@ -105,7 +105,7 @@ cp -r ../senior/skills/* ~/.config/opencode/skills/</code></pre>
 <ul>
   <li><a href="https://opencode.ai/docs/skills">OpenCode Skills Documentation</a></li>
   <li><a href="../agents/">Agents</a></li>
-  <li><a href="https://github.com/xscriptor/ai">github.com/xscriptor/ai</a></li>
+  <li><a href="https://github.com/xscriptor-ai/agents">github.com/xscriptor-ai/agents</a></li>
   <li><a href="https://dev.xscriptor.com/en/resources/ai/">dev.xscriptor.com/en/resources/ai/</a></li>
 </ul>
 
