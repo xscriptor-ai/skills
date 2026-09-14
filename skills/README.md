@@ -45,18 +45,20 @@ npx @xscriptor/ai-agents
 # Skills only
 npx @xscriptor/ai-agents --skills
 
-# Clone and install all
+# Clone and install all (agents + skills)
+git clone https://github.com/xscriptor-ai/scripts.git
+git clone https://github.com/xscriptor-ai/agents.git
 git clone https://github.com/xscriptor-ai/skills.git
-cd ai
-./scripts/install-agents.sh</code></pre>
+cd scripts
+./install-agents.sh --skills</code></pre>
 
 <p>The install script copies all 3 project skills and 18 senior skills to <code>~/.config/opencode/skills/</code>.</p>
 
 <h3>Manual</h3>
 
-<pre><code># Clone skills directory only
-git clone --depth 1 --filter=blob:none --sparse https://github.com/xscriptor-ai/skills.git
-cd ai/skills
+<pre><code># Clone this repo
+git clone --depth 1 https://github.com/xscriptor-ai/skills.git
+cd skills/skills
 
 # Project skills only
 cp -r web/* ~/.config/opencode/skills/
@@ -83,8 +85,10 @@ cp -r ../senior/skills/* ~/.config/opencode/skills/</code></pre>
       references/
   dev/
     devx/
-      SKILL.md
-      references/
+      README.md
+      devx/
+        SKILL.md
+        references/
   cybersec/
     samurai/
       SKILL.md
@@ -104,7 +108,7 @@ cp -r ../senior/skills/* ~/.config/opencode/skills/</code></pre>
 
 <ul>
   <li><a href="https://opencode.ai/docs/skills">OpenCode Skills Documentation</a></li>
-  <li><a href="../agents/">Agents</a></li>
+  <li><a href="https://github.com/xscriptor-ai/agents">Agents</a></li>
   <li><a href="https://github.com/xscriptor-ai/agents">github.com/xscriptor-ai/agents</a></li>
   <li><a href="https://dev.xscriptor.com/en/resources/ai/">dev.xscriptor.com/en/resources/ai/</a></li>
 </ul>
