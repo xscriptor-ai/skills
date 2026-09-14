@@ -23,11 +23,11 @@
 <pre><code># Via npx (no clone)
 npx @xscriptor/ai-agents --commands
 
-# Via local script
-./scripts/install-agents.sh --commands
+# Via install script (xscriptor-ai/scripts)
+./install-agents.sh --commands
 
 # Or install everything
-./scripts/install-agents.sh</code></pre>
+./install-agents.sh</code></pre>
 
 <h2 align="center">Usage</h2>
 
