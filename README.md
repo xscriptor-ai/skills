@@ -4,7 +4,7 @@ Project skills, deep-reference skills, and slash commands for [OpenCode](https:/
 
 ## Contents
 
-- `skills/` — 3 project skills (xscriptor, devx, samurai)
+- `skills/` — 4 project skills (xscriptor, devx, samurai, linkedin)
 - `senior/skills/` — 18 deep-reference skills
 - `commands/` — 8 OpenCode slash commands (`/review`, `/audit`, `/docs`, ...)
 
