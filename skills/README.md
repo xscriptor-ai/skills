@@ -32,6 +32,12 @@
       <td><code>samurai</code></td>
       <td>Security architecture, backend/component patterns, database schema, and design tokens</td>
     </tr>
+    <tr>
+      <td>Content / Marketing</td>
+      <td><code>linkedin/</code></td>
+      <td><code>linkedin</code></td>
+      <td>LinkedIn content system: post copies, hashtags, publishing cadence, and auto-generated 1080x1350 images</td>
+    </tr>
   </tbody>
 </table>
 
@@ -52,7 +58,7 @@ git clone https://github.com/xscriptor-ai/skills.git
 cd scripts
 ./install-agents.sh --skills</code></pre>
 
-<p>The install script copies all 3 project skills and 18 senior skills to <code>~/.config/opencode/skills/</code>.</p>
+<p>The install script copies all 4 project skills and 18 senior skills to <code>~/.config/opencode/skills/</code>.</p>
 
 <h3>Manual</h3>
 
@@ -61,7 +67,7 @@ git clone --depth 1 https://github.com/xscriptor-ai/skills.git
 cd skills/skills
 
 # Project skills only
-cp -r web/* ~/.config/opencode/skills/
+cp -r web/* linkedin ~/.config/opencode/skills/
 
 # Senior skills (also needed for senior agents)
 cp -r ../senior/skills/* ~/.config/opencode/skills/</code></pre>
@@ -72,7 +78,8 @@ cp -r ../senior/skills/* ~/.config/opencode/skills/</code></pre>
 
 <pre><code>/xscriptor
 /devx
-/samurai</code></pre>
+/samurai
+/linkedin</code></pre>
 
 <h2>Structure</h2>
 
