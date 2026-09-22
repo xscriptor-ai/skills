@@ -86,7 +86,7 @@ Common escape causes:
 - Closures capturing variables that outlive the function; goroutines always capture.
 - Sending a pointer through a channel or storing it in a slice of interfaces.
 - `defer` with a closure over loop state (open-coded defers avoid the allocation for simple cases).
-- Converting `[]byte` ↔ `string` around I/O; use `unsafe` only with a documented, measured reason.
+- Converting between `[]byte` and `string` around I/O; use `unsafe` only with a documented, measured reason.
 
 High-yield allocation fixes:
 

@@ -184,7 +184,7 @@ any path containing `asintota`/`asíntota`/`cielos-de-alquitran`/
 `la-danza-de-las-amapolas`. Rendered both above and below `main`.
 
 ### `XFooterComponent` (default export `SiteXFooter`) — `layout/footer/XFooterComponent.tsx`
-Client component: derives locale from `usePathname()` (⚠ only `en/es/de`),
+Client component: derives locale from `usePathname()` (note: only `en/es/de`),
 picks footer strings from the message JSONs via `getMsg`, and renders
 `XMinimalFooter` with the current year and links to terms + contact.
 
@@ -193,7 +193,7 @@ Neumorphic PGP card. Fetches `/x-public.asc` and renders it in a `<pre>`.
 Generates a QR of the hardcoded fingerprint
 `43086B71054295FF252949AD3F03BDE89BE5176F` (`qrcode`, EC level M, 168px), shows
 `.asc` download, a per-char decrypt of the formatted fingerprint via
-`XTextDecrypt`, a copy-to-clipboard button with `copied ✓` state, and the
+`XTextDecrypt`, a copy-to-clipboard button with a `copied` confirmation state, and the
 `SocialGrid`. Labels come from `useT("ContactPage")`. Theme via
 `:root.light`/`:root.dark` neumorphic shadows.
 
