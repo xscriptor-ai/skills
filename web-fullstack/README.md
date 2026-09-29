@@ -30,6 +30,12 @@
       <td><code>samurai</code></td>
       <td>Cybersecurity platform: design system, frontend/backend patterns, database schema, export system</td>
     </tr>
+    <tr>
+      <td>Design</td>
+      <td><code>design/</code></td>
+      <td><code>xglassmorphism</code></td>
+      <td>Real glassmorphism for TypeScript + CSS apps: glass optics, backdrop-filter, tokens, typed components, accessibility, performance, fullstack architecture, Tauri native vibrancy</td>
+    </tr>
   </tbody>
 </table>
 
@@ -42,7 +48,7 @@ git clone --depth 1 https://github.com/xscriptor-ai/skills.git
 cd skills
 
 # Web project skills (installed flat, so each directory equals the skill name)
-cp -r web-fullstack/portfolio/xscriptor web-fullstack/devtools/devx web-fullstack/platform/samurai ~/.config/opencode/skills/
+cp -r web-fullstack/portfolio/xscriptor web-fullstack/devtools/devx web-fullstack/platform/samurai web-fullstack/design/xglassmorphism ~/.config/opencode/skills/
 
 # Content skills
 cp -r content/linkedin ~/.config/opencode/skills/
@@ -57,6 +63,7 @@ cp -r senior/* ~/.config/opencode/skills/</code></pre>
 <pre><code>/xscriptor
 /devx
 /samurai
+/xglassmorphism
 /linkedin</code></pre>
 
 <h2>Structure</h2>
@@ -74,6 +81,11 @@ cp -r senior/* ~/.config/opencode/skills/</code></pre>
   platform/
     samurai/
       SKILL.md
+      references/
+  design/
+    xglassmorphism/
+      SKILL.md
+      README.md
       references/</code></pre>
 
 <h2>Deep Dive References</h2>
