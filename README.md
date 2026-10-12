@@ -6,7 +6,7 @@ Knowledge layer for [OpenCode](https://opencode.ai) and [Claude Code](https://do
 
 | Directory | Contents | Items | How it is consumed |
 |---|---|---|---|
-| `web-fullstack/` | Full-stack web project skills by archetype: `portfolio/xscriptor`, `devtools/devx`, `platform/samurai` | 3 | Loaded on demand by the native `skill` tool |
+| `web-fullstack/` | Full-stack web project skills by archetype: `portfolio/xscriptor`, `devtools/devx`, `platform/samurai`, `design/xglassmorphism` | 4 | Loaded on demand by the native `skill` tool |
 | `content/` | Content systems: `linkedin` (post copies, hashtags, cadence, image generator) | 1 | Loaded on demand by the native `skill` tool |
 | `senior/` | Exhaustive per-domain reference packs (language, platform, practice) | 18 | Loaded on demand by agents or the orchestrator; optional via a stable port |
 
@@ -16,6 +16,7 @@ skills/
     portfolio/xscriptor/     SKILL.md + references/
     devtools/devx/           SKILL.md + README.md + references/
     platform/samurai/        SKILL.md + references/
+    design/xglassmorphism/   SKILL.md + README.md + references/
   content/
     linkedin/                SKILL.md + README.md + references/ + scripts/
   senior/
